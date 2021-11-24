@@ -10,28 +10,13 @@ The dataset, that was PISA is a survey of students' skills and knowledge as they
 
 It can be downloaded here: (https://www.google.com/url?q=https://s3.amazonaws.com/udacity-hosted-downloads/ud507/pisa2012.csv.zip&sa=D&ust=1581581520574000)
 
-Since the original dataset is too large, I worked with and reduced dataset, that only contains my variables of interest. After my final data wrangling it looks like this:
+Since the original dataset is too large, I worked with and reduced dataset, that only contains my variables of interest. The final dataset, that is investigated, consists of 17 columns. Those are:
 
-Data columns (total 17 columns):
- Nr.  Column                              Non-Null Count   Dtype   
----  ------                              --------------   -----   
- 0   country                             389081 non-null  category
- 1   is_oecd_country                     389081 non-null  category
- 2   gender                              389081 non-null  category
- 3   math_score                          389081 non-null  float64 
- 4   read_score                          389081 non-null  float64 
- 5   sci_score                           389081 non-null  float64 
- 6   at_home_mother                      389081 non-null  category
- 7   at_home_father                      389081 non-null  category
- 8   mother_job_status                   389081 non-null  category
- 9   father_job_status                   389081 non-null  category
- 10  self_birth_country_international    389081 non-null  category
- 11  mother_birth_country_international  389081 non-null  category
- 12  father_birth_country_international  389081 non-null  category
- 13  lessons_with_Parent                 239135 non-null  float64 
- 14  mother_highest_overall_edu          389081 non-null  category
- 15  father_highest_overall_edu          389081 non-null  category
- 16  combined_score                      389081 non-null  float64 
+* 2 columns of datatype ordered category, that contain the highest education of mother and father)
+* 5 columns of datatype float64 (4 score columns and one, that contains the number of lessons with a parent)
+* 10 columns of datatype category (columns giving information about country, OECD status, whether parents are at home, job status and birth country)
+
+
 dtypes: category(12), float64(5)
 
 ## Summary of Findings
