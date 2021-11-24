@@ -32,12 +32,11 @@ Another parameter I was looking at was, whether the score is affected when stude
 
 Students seem to perform better, the better the combined education levels of both parents are. The best average performance is achieved, when both parents have education level 5A. Outperformance of female students compared to male students increases, the better both parents are educated.
 
-Most students do not receive any additional lessons by their parents. The distribution is strongly right skewed and non-symmetric. with a maximum of 125220 at 0 hours, and nearly no cases with more than 15 hours. The number of hours spent with those lessons correlate negative with the students performance. In a certain way this is what one would expect, because only students, who need to get better receive extra lessons. Students perform on average 21.3 points worse per received lesson
+Most students do not receive any additional lessons by their parents. The distribution is strongly right skewed and non-symmetric. Starting at a maximum of 125000 at 0 hours, there only about 52000 students, that receive 1 hour and 31000 students receiving 2 hours. This number decays quickly and nearly no cases with more than 15 hours. The number of hours spent with those lessons correlate negative with the students performance. In a certain way this is what one would expect, because only students, who need to get better receive extra lessons. Students perform on average 21.3 points worse per lesson hour.
 
 
 ## Key Insights for Presenatation
-I will concentrante my presentation on the last two findings in the chapter before. 
-Following changes were made:
+I will concentrante my presentation on the last two findings in the chapter before. Following changes were made in order to polish the visualization for the presentation:
 Generally, I added proper x- and y-axis labels, for example I replaced 'math_score' with 'Math score'
 I changed the color map to viridis for all heatmaps.
 In some cases, i created a figure with subplots in order to get all necessary information on one sight.
